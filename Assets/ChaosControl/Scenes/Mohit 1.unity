@@ -3360,9 +3360,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'My Dear Asenthia,
-
-    There doesn''t go a day by that I think of you'
+  m_text: "\nMy Dear Asenthia,\nI miss you so much,  you went before your time.\nMy
+    eyes keep imagining you sitting there next to me.\n\nOne day, I shall be with
+    you again. \n\nLove,\nYuri"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c7563e7e2ffb3e4a99586c53b2af2c0, type: 2}
   m_sharedMaterial: {fileID: 1460414390692985151, guid: 2c7563e7e2ffb3e4a99586c53b2af2c0, type: 2}
@@ -3425,7 +3425,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -273.52066}
+  m_margin: {x: 25.250153, y: 18.130814, z: 25.184143, w: -237.337}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -28503,7 +28503,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4488290161304393699, guid: 40ce86cf2e5be8644b0379d659b2422a, type: 3}
       propertyPath: m_Name
-      value: Generator
+      value: Lore Page
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342983309397210250, guid: 40ce86cf2e5be8644b0379d659b2422a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137187710107594889, guid: 40ce86cf2e5be8644b0379d659b2422a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099833602841992008, guid: 40ce86cf2e5be8644b0379d659b2422a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53485,7 +53497,7 @@ GameObject:
   - component: {fileID: 1884848107}
   - component: {fileID: 1884848106}
   m_Layer: 5
-  m_Name: GeneratorCanvas
+  m_Name: LoreCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60502,7 +60514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 2d253b5d70a1df943be002b220b8a404, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
