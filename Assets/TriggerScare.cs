@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class TriggerScare : MonoBehaviour
 {
@@ -15,6 +16,16 @@ public class TriggerScare : MonoBehaviour
         {
             //animator.SetBool("boo", true);
             PlayAhSound();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            
+            Destroy(gameObject);
+          
         }
     }
 
